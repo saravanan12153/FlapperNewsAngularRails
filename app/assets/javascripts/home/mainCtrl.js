@@ -11,15 +11,7 @@ angular.module('flapperNews')
                 title: $scope.title,
                 link: $scope.link,
                 upvotes: 0,
-                comments: [{
-                    author: 'Joe',
-                    body: 'Cool Post',
-                    upvotes: 0
-                }, {
-                    author: 'Bob',
-                    body: 'Great Idea but everthing is wrong',
-                    upvotes: 0
-                }]
+                comments: []
             });
             $scope.title = '';
             $scope.link = '';
